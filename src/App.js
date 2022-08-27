@@ -70,7 +70,12 @@ export default function App() {
         />
       </div>
       <footer>
-        <p>Made by Barbara Morales</p>
+        <p>
+          {" "}
+          <a href="https://github.com/barbaramm11/react">
+            Made by Barbara Morales
+          </a>
+        </p>
       </footer>
     </div>
   );
