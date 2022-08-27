@@ -18,7 +18,7 @@ export default function App() {
 
   function handleSearch(event) {
     event.preventDefault();
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=f2a962d48c46d7fc23aca5910b2db6af&units=metric`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=c9340caae81260dc304fd1a5b37c6e0c&units=metric`;
     axios.get(apiUrl).then(showWeather);
   }
 
